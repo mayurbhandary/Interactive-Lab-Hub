@@ -109,7 +109,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
-One point of conversation was how the user programs the device to set the color. We decided to keep the interface simple by only providing three color options. 
+Initially we were going to use one bright light source to wake up the user but realized this could be just as jarring as an alarm clock. Isntead we decided to use various colors to soften the wake up process. One point of conversation was how the user programs the device to set the color. We decided to keep the interface simple by only providing three color options. 
 
 ## Part B. Act out the Interaction
 
@@ -118,23 +118,17 @@ Try physically acting out the interaction you planned. For now, you can just pre
 -->
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
 When we first acted the scene out it seemed difficult for the user to program a color for the device. Instead of having a complicated interface to program the device, we opted for 3 simple buttons. We also ran into the issue of the light source not being strong enough and realized that the light source would need to be at least as powerful as a lamp for this idea to be effective.  
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
 We need a stronger light source to ensure that the user is able to wake up with light alone. A small light wouldn't be sufficiently bright enough to fill the room with light and wake up the user.
 
 We also discussed the possibility of using the light to also convey the outside temperature by flashing at different frequencies once the wake up phase is complete. For example, if the temperature is high outside, the light would pulse faster than if it were cold outside. Alternatively, we could use a secondary color as a mechanism to convey outside temperature as well. The user could customize the settings to trigger the feature at their desired temperature thresholds. 
 
 
 ## Part C. Prototype the device
-
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 I ran into issues installing packages for tinkerbell. For some reason pip installing the requirements would get stuck on my machine so we ended up using someone elses. 
@@ -143,50 +137,35 @@ I ran into issues installing packages for tinkerbell. For some reason pip instal
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+Initally, we tried using a projector as a way to simulate additional light given off by the device. We blocked off ambient light from the window with bedsheets. 
 
-Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+Here's us setting up our first attempt: 
+![image](https://user-images.githubusercontent.com/29494260/132262802-56ec371f-6dd9-42b7-8fee-1c96d9b53e0b.png)
+
+
 
 \*\***Show the follow-up work here.**\*\*
-
+We changed the setup of our video by using the real ambient light from outside to mock a brighter light source for the device. 
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+
+
 ![image](https://user-images.githubusercontent.com/29494260/132262065-9d077dd6-1d9d-4022-bb95-1192343efec4.png)
 
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+![image](https://user-images.githubusercontent.com/29494260/132262768-4b3cf439-7b7a-4ad1-a0e8-7771c03fea24.png)
 
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+We designed this device with simplicity in mind. There are 3 preset light settings on the top of the device to program what type of light the user will wake up to. The user can select from cool, amber, and neutral lighting profiles. The device should sit near the bed so it must be small enough to fit on a stand. It must be large enough to house powerful light source and throw it in the direction that the user desires. 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I worked with Alex Kluver abk98, Lauren Tran lat89, and Magdalena Horowitz myh26 on this project. All of us contributed equally to the planing, design and filming of this project. 
 
-
-
-# Staging Interaction, Part 2 
-
-This describes the second week's work for this lab activity.
-
-
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
-\*\***Summarize feedback from your partners here.**\*\*
-
-## Make it your own
-
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
