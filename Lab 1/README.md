@@ -1,5 +1,5 @@
 
-
+<!---
 # Staging Interaction
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -54,6 +54,9 @@ F) [Record the interaction](#part-f-record)
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
+-->
+
+
 ## Part A. Plan 
 
 To stage the interaction with your interactive device, think about:
@@ -68,11 +71,22 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
+<!--
 \*\***Describe your setting, players, activity and goals here.**\*\*
+-->
+**Context:** We wanted to make a device that allows users to wake up naturally through light instead of sound. The light should be programmable to emulate the setting of their choice. For example, if the user is in a gloomy city like Seattle, they could use the device to emulate the experience of waking up to a sunny day. 
+
+**Setting:** This interaction happens in a bedroom that is completely pitch black. The curtains must be sufficiently opaque so that light from outside does not interfere with the light produced by the device. The interaction takes place at night while programming the device and in the morning while waking up to the device's light. 
+
+**Players:** The only person involved in this interaction is the person who sleeps in the bedroom (assuming they are sleeping alone). This individual is a health-conscious person who wants to keep their cortisol levels low by avoiding an intrusive wakeup call from a traditional alarm.
+
+**Activity:** The actor simply sets the time of day and color setting for the alarm and goes to sleep. At their desired wake up time, the sunlight alarm must be sufficiently bright enough to wake them gently from their sleep. 
+
+**Goals:** The user's goal is to wake up on time using only light. The light should ideally grow into existence so as to not create the jarring effect of abruptly opening the blinds. 
+
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include a picture of your storyboard here**\*\*
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
