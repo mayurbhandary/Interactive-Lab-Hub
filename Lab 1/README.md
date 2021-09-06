@@ -58,7 +58,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 
 ## Part A. Plan 
-
+<!--
 To stage the interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
@@ -70,7 +70,7 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
+-->
 <!--
 \*\***Describe your setting, players, activity and goals here.**\*\*
 -->
@@ -85,21 +85,45 @@ The interactive device can be anything *except* a computer, a tablet computer or
 **Goals:** The user's goal is to wake up on time using only light. The light should ideally grow into existence so as to not create the jarring effect of abruptly opening the blinds. 
 
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+**Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene.**
+
+Here are the storyboards that we came up with during our planning session: 
+
+Storyboard 1:
+![image](https://user-images.githubusercontent.com/29494260/132260963-ebd19d99-a791-46a0-a722-5653f6ff1268.png)
+
+
+Storyboard 2: 
+![image](https://user-images.githubusercontent.com/29494260/132261021-cd14847f-8cb8-435a-b632-49f5da1d23e1.png)
+
+
+Storyboard 3: 
+![image](https://user-images.githubusercontent.com/29494260/132261061-47d12791-53ac-4aed-ab1a-2567ba36f77f.png)
+
+
+Storyboard 4:
+![image](https://user-images.githubusercontent.com/29494260/132261084-3f462b5d-1514-45a2-9afb-59643498147c.png)
 
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
 
+One point of conversation was how the user programs the device to set the color. We decided to keep the interface simple by only providing three color options. 
 
 ## Part B. Act out the Interaction
 
+<!--
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+-->
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+When we first acted the scene out it seemed difficult for the user to program a color for the device. Instead of having a complicated interface to program the device, we opted for 3 simple buttons. We also ran into the issue of the light source not being strong enough and realized that the light source would need to be at least as powerful as a lamp for this idea to be effective.  
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+We need a stronger light source to ensure that the user is able to wake up with light alone. A small light wouldn't be sufficiently bright enough to fill the room with light and wake up the user.
+
+We also discussed the possibility of using the light to also convey the outside temperature by flashing at different frequencies once the wake up phase is complete. For example, if the temperature is high outside, the light would pulse faster than if it were cold outside. Alternatively, we could use a secondary color as a mechanism to convey outside temperature as well. The user could customize the settings to trigger the feature at their desired temperature thresholds. 
 
 
 ## Part C. Prototype the device
@@ -113,14 +137,14 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+I ran into issues installing packages for tinkerbell. For some reason pip installing the requirements would get stuck on my machine so we ended up using someone elses. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -132,6 +156,8 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+![image](https://user-images.githubusercontent.com/29494260/132262065-9d077dd6-1d9d-4022-bb95-1192343efec4.png)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
