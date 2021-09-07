@@ -109,7 +109,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
-Initially we were going to use one bright light source to wake up the user but realized this could be just as jarring as an alarm clock. Isntead we decided to use various colors to soften the wake up process. One point of conversation was how the user programs the device to set the color. We decided to keep the interface simple by only providing three color options. 
+Initially we were going to use one bright light source to wake up the user but realized this could be just as jarring as an alarm clock. Instead we decided to use various colors to soften the wake up process. One point of conversation was how the user programs the device to set the color. We decided to keep the interface simple by only providing three color options. 
 
 ## Part B. Act out the Interaction
 
@@ -131,20 +131,26 @@ We also discussed the possibility of using the light to also convey the outside 
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-I ran into issues installing packages for tinkerbell. For some reason pip installing the requirements would get stuck on my machine so we ended up using someone elses. 
+
+I ran into issues installing packages for tinkerbell. For some reason pip installing the requirements would get stuck on my machine so we ended up using someone else's. 
 
 ## Part D. Wizard the device
+
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
 Initally, we tried using a projector as a way to simulate additional light given off by the device. We blocked off ambient light from the window with bedsheets. 
 
 Here's us setting up our first attempt: 
 ![image](https://user-images.githubusercontent.com/29494260/132262802-56ec371f-6dd9-42b7-8fee-1c96d9b53e0b.png)
 
 
+Here's a recording of our first attempt: [Link](https://drive.google.com/file/d/1bq7N8M7WNwY-ZNuzF1jpazFCqK-ky8hC/view?usp=sharing)
+
 
 \*\***Show the follow-up work here.**\*\*
+
 We changed the setup of our video by using the real ambient light from outside to mock a brighter light source for the device. 
 
 ## Part E. Costume the device
@@ -160,12 +166,15 @@ We changed the setup of our video by using the real ambient light from outside t
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
 We designed this device with simplicity in mind. There are 3 preset light settings on the top of the device to program what type of light the user will wake up to. The user can select from cool, amber, and neutral lighting profiles. The device should sit near the bed so it must be small enough to fit on a stand. It must be large enough to house powerful light source and throw it in the direction that the user desires. 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Here's our final video: [Link](https://drive.google.com/file/d/1KYFaKCW9vSYkfiUnFc0pLhP_Si_52kMK/view?usp=sharing)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-I worked with Alex Kluver abk98, Lauren Tran lat89, and Magdalena Horowitz myh26 on this project. All of us contributed equally to the planing, design and filming of this project. 
+I worked with Alex Kluver abk98, Lauren Tran lat89, and Magdalena Horowitz myh26 on this project. All of us contributed equally to the planing, designing and filming of this project. 
 
