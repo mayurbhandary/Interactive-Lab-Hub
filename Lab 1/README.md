@@ -177,4 +177,21 @@ Here's our final video: [Link](https://drive.google.com/file/d/1KYFaKCW9vSYkfiUn
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 I worked with Alex Kluver abk98, Lauren Tran lat89, and Magdalena Horowitz myh26 on this project. All of us contributed equally to the planing, designing and filming of this project. 
+ 
+# Staging Interaction, Part 2 
 
+For part two we decided to change the form factor of our sunlight alarm into a sleeping mask. This came as a result of the feedback we receved on our first iteration. By putting lights into the mask, we eliminate the need for a large light source. It also isolates the light to one person so that if multiple people are sleeping in the same room, only the user is woken up. 
+
+
+## New Story Board:
+
+![image](https://user-images.githubusercontent.com/29494260/133182914-90451370-4085-4abe-bab5-65486e7e2c2f.png)
+
+## New Prototype:
+
+![image](https://user-images.githubusercontent.com/29494260/133183012-7f837368-0e4e-459e-9de5-809036307df6.png)
+
+
+## New Video
+
+[Link](https://drive.google.com/file/d/1i4g5RQTqdZh1bGefaX14ZKC_tA5dFVTZ/view?usp=sharing)
