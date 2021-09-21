@@ -1,4 +1,5 @@
 import time
+import datetime
 import subprocess
 import digitalio
 import board
@@ -60,8 +61,25 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+
 hourly_meme = {
-    1: 'doge.jpeg'
+    0: 'thinking.jpeg',
+    1: 'brian.jpeg',
+    2: 'calculation.jpeg',
+    3: 'die.jpeg',
+    4: 'disaster_girl.jpeg',
+    5: 'distracted_boyfriend.jpeg',
+    6: 'doge.jpeg',
+    7: 'first_world.jpeg',
+    8: 'money.jpeg',
+    9: 'picard.jpeg',
+    10: 'simply.jpeg',
+    11: 'success.jpeg'
 }
 
 
@@ -83,11 +101,16 @@ def processImage(image):
     image = image.crop((x, y, x + width, y + height))
     return image
 
+offset = 0
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    image = Image.open("./memes/"+hourly_meme[1])
+    if not buttonA.value:  # just button A pressed
+        offset += 1 
+
+    now = datetime.datetime.now()
+    image = Image.open("./memes/"+hourly_meme[((now.hour % 12)+offset)%12])
     disp.image(processImage(image),rotation)
     time.sleep(1)
