@@ -18,6 +18,9 @@ Here is the video [link](https://drive.google.com/file/d/1uET-HvDx4ghBFBYqeX8aqr
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+It would be good to show intermediate times instead of just the hour. I could do this by having the memes scrol instead of just having a static image. The user would know what time it is based on the relative space that the meme occupies on the screen. 
+
+Here's a link to a sketch board of further interaction [link](https://drive.google.com/file/d/1N9YyW0fWrmnGxjX_1b4EfSkK9i0AjRMe/view?usp=sharing)
 
 # Prep for Part 2
 
