@@ -12,6 +12,8 @@ The code for my modified clock can be found in meme_clock.py. I made a clock tha
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+Here is the video [link](https://drive.google.com/file/d/1uET-HvDx4ghBFBYqeX8aqr4EhjqSRc3t/view?usp=sharing)
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
