@@ -54,7 +54,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 40)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -111,6 +111,17 @@ while True:
         offset += 1 
 
     now = datetime.datetime.now()
-    image = Image.open("./memes/"+hourly_meme[((now.hour % 12)+offset)%12])
-    disp.image(processImage(image),rotation)
-    time.sleep(1)
+
+    # Show hour if button b is pressed so user can learn mapping. 
+    if not buttonB.value:
+        image = Image.new("RGB", (width, height))
+        draw = ImageDraw.Draw(image)
+        draw.text((x, -2), str(now.hour%12), font=font, fill="#FFFFFF")
+        disp.image(image, rotation)
+        
+    else:
+        image = Image.open("./memes/"+hourly_meme[((now.hour % 12)+offset)%12])
+        disp.image(processImage(image),rotation)
+        time.sleep(1)
+
+
