@@ -36,7 +36,7 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As per the feedback that I received during last week's lab session, I have modified content of the memes in my clock to reflect the time of day. The first meme is "Distracted Boyfriend" to reflect how tired I am in the morning. The next few are about thinking and and calculation to reflect how my mind is waking up. Towards the end of the day the memes become more chaotic until I get to the "I guess I'll Die" meme to represent bedtime. 
  
-I have also implemented a scrolling a feature to make it so that you can gauge how far into the hour it is based on how much of the current meme is displayed and how much of the next meme is displayed. 
+I have also implemented a scrolling a feature to make it so that you can gauge how far into the hour it is based on how much of the current meme is displayed and how much of the next meme is displayed. Here's a video of the scrolling: [Link](https://drive.google.com/file/d/1c1Ln_q8X1A2EkiaqKwI_JtbSZ12tyFdz/view?usp=sharing). The scrolling has been sped up for the purposes of the video. 
 
 
 
