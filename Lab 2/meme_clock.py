@@ -71,7 +71,7 @@ hourly_meme = {
     0: 'distracted_boyfriend.jpeg',
     1: 'thinking.jpeg',
     2: 'calculation.jpeg',
-    3: 'success.jpeg'
+    3: 'success.jpeg',
     4: 'simply.jpeg',
     5: 'brian.jpeg',
     6: 'doge.jpeg',
