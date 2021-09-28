@@ -68,18 +68,18 @@ buttonB.switch_to_input()
 
 
 hourly_meme = {
-    0: 'thinking.jpeg',
-    1: 'brian.jpeg',
+    0: 'distracted_boyfriend.jpeg',
+    1: 'thinking.jpeg',
     2: 'calculation.jpeg',
-    3: 'die.jpeg',
-    4: 'disaster_girl.jpeg',
-    5: 'distracted_boyfriend.jpeg',
+    3: 'success.jpeg'
+    4: 'simply.jpeg',
+    5: 'brian.jpeg',
     6: 'doge.jpeg',
     7: 'first_world.jpeg',
     8: 'money.jpeg',
     9: 'picard.jpeg',
-    10: 'simply.jpeg',
-    11: 'success.jpeg'
+    10: 'disaster_girl.jpeg',
+    12: 'die.jpeg',
 }
 
 
@@ -96,7 +96,7 @@ def processImage(image):
     image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
     # Crop and center the image
-    x = scaled_width // 2 - width // 2
+    x = scaled_width // 2 - width // 2 - 100
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
     return image
