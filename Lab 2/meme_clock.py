@@ -83,7 +83,7 @@ hourly_meme = {
 }
 
 
-def processImage(image):
+def processImage(image, scroll):
     # Scale the image to the smaller screen dimension
     image_ratio = image.width / image.height
     screen_ratio = width / height
@@ -96,14 +96,17 @@ def processImage(image):
     image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
     # Crop and center the image
-    x = scaled_width // 2 - width // 2 - 100
+    x = scaled_width // 2 - width // 2 - scroll
     y = scaled_height // 2 - height // 2
     image = image.crop((x, y, x + width, y + height))
     return image
 
 offset = 0
 
+scroll = 0
+
 while True:
+    scroll += 1
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
@@ -121,7 +124,7 @@ while True:
         
     else:
         image = Image.open("./memes/"+hourly_meme[((now.hour % 12)+offset)%12])
-        disp.image(processImage(image),rotation)
+        disp.image(processImage(image, scroll ),rotation)
         time.sleep(1)
 
 
