@@ -29,6 +29,7 @@ We started thinking of ways that a personal voice assistant could be of use in o
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+The device's responses are generated on the fly. For our interview, I pretended to give a presentation on how to cook chicken, and my partner Patricio, aka the device, interrupted me to correct my phrasing (the correction is unknown to me as the user).
 
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
