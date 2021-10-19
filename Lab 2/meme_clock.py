@@ -69,7 +69,7 @@ buttonB.switch_to_input()
 
 hourly_meme = {
     0: 'distracted_boyfriend.jpeg',
-    1: 'thinking.jpeg',
+    1: 'picard.jpeg',
     2: 'calculation.jpeg',
     3: 'success.jpeg',
     4: 'simply.jpeg',
@@ -106,7 +106,7 @@ offset = 0
 scroll = 0
 
 while True:
-    scroll += 1
+    scroll += 5
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
