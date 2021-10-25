@@ -192,9 +192,11 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+For the Pull Up counter, it is unclear how the distance sensor must be mounted in order to measure a full pull up. For example, would it be better for the sensor to point at the user's head or their torso. We would need to prototype the mounting of the sensor onto the pullup bar with serveral different angles in order to accurately capture a pullup.
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
-
+We decided to prototype the Pull Up counter. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
