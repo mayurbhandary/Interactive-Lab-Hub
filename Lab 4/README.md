@@ -192,10 +192,20 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
 For the Pull Up counter, it is unclear how the distance sensor must be mounted in order to measure a full pull up. For example, would it be better for the sensor to point at the user's head or their torso. We would need to prototype the mounting of the sensor onto the pullup bar with serveral different angles in order to accurately capture a pullup.
+
+For the digital etch-a-sketch, the sensitivity of the rotary encoders needs to be accounted for. Since the rotary encoders move in discrete increments, it might not create the same smooth interaction that a real etch-a-sketch has
+
+For the Stringless-puppet, it might be difficult to actuate the legs in the manner depicted. We would need to come up with a simple way to convert the servo motor's rotation into linear actuation. 
+
+The Covid 19 Distancing assistant might not be the most useful if it requires a screen as depicted. It might be better to include vibration or a text to speach allert to indicate unsafe distancing. 
+
+The Jump Rope Counter might be better off as a voice assistant as well since the person who is jump roping won't be able to look at their wrist while they jump. We would need to prototype having the screen on the device and experment with a real user to see if they would rather use the screen after they finish or have the voice assistant giving them feedback as they go. 
 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
 We decided to prototype the Pull Up counter. 
 
 ### Part D
