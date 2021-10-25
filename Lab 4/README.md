@@ -174,7 +174,23 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-# For peer review: I plan to make a device that moves up and down with my hand using the distance sensor and servo motor. The device will respond to my hand motions to enable a Puppet without strings. Any feedback on this idea is appreciated. 
+
+### Pull Up Counter
+![image](https://user-images.githubusercontent.com/29494260/138747484-0947ea58-7152-4b34-b896-5cdd2a8fa17d.png)
+
+### Digital Etch-a-sketch
+![image](https://user-images.githubusercontent.com/29494260/138747552-1a3ea07e-72a9-49fc-b116-c78eee0fdd32.png)
+
+### Stringless puppet
+![image](https://user-images.githubusercontent.com/29494260/138747609-e429a808-d91a-4286-ba92-d7213c9398b7.png)
+
+### Covid 19 Distancing Assistant
+![image](https://user-images.githubusercontent.com/29494260/138747674-24ac8a58-9f2a-4fff-bd70-b26b996aad0b.png)
+
+### Jump Rope Counter
+![image](https://user-images.githubusercontent.com/29494260/138747717-d301f8d8-aa08-441c-ac72-06ebe6e290c2.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
