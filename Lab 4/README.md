@@ -257,7 +257,8 @@ Think about how you want to present the information about what your sensor is se
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
+![image](https://user-images.githubusercontent.com/29494260/138794655-794b68ab-24ba-41ab-8d35-2f3bb6333abb.png)
+Above is our rough prototype. The device has a simple user interface to reset the counter and change the exercise. Changing the exercise allows you to adjust the distance that is considered a complete repetition of the exercise. 
 
 LAB PART 2
 
@@ -298,7 +299,14 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
+
+
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+![image](https://user-images.githubusercontent.com/29494260/138794938-a531cd4b-8c4e-438f-8aff-66a4a503c1d1.png)
+The device is mounted onto a pull up bar at the center of the rod. It should not impede the flow of the workout and only minimally modify the physical profile of the pull up bar. The device is very light so that it does not contribute unnecessary weight to the bar. 
+
 * "Works like": shows what the device can do
+
+
 * "Acts like": shows how a person would interact with the device
 
