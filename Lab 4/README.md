@@ -314,4 +314,5 @@ The device is mounted onto a pull up bar at the center of the rod. It should not
 
 
 * "Acts like": shows how a person would interact with the device
+[![Watch the video](thumbnail.png)](https://www.youtube.com/watch?v=Z5tLFcCgwlU)
 
