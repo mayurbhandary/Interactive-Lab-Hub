@@ -311,6 +311,7 @@ The device is mounted onto a pull up bar at the center of the rod. It should not
 
 * "Works like": shows what the device can do
 <img src="./works_likE.gif">
+<img src="./works_like2.gif">
 
 
 * "Acts like": shows how a person would interact with the device
