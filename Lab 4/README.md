@@ -208,6 +208,8 @@ The Jump Rope Counter might be better off as a voice assistant as well since the
 
 We decided to prototype the Pull Up counter. 
 
+<img src="./storyboard.png">
+
 ### Part D
 ### Physical considerations for displaying information and housing parts
 
@@ -247,6 +249,8 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+
+<img src="./sketches.JPG">
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
