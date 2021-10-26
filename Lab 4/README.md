@@ -310,6 +310,7 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 The device is mounted onto a pull up bar at the center of the rod. It should not impede the flow of the workout and only minimally modify the physical profile of the pull up bar. The device is very light so that it does not contribute unnecessary weight to the bar. 
 
 * "Works like": shows what the device can do
+<img src="./works_likE.gif">
 
 
 * "Acts like": shows how a person would interact with the device
