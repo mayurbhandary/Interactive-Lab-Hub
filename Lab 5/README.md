@@ -100,6 +100,31 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+#### Contours:
+![image](https://user-images.githubusercontent.com/29494260/140816273-4d110210-9ab7-4391-beaa-3ad2e93b36e3.png)
+
+### The contours algorithm could be used to to create a stencil tracing device. The device would take an image and return the contours of the objects in the image so that an artist can trace over the lines. For example, an artist who is trying create a still life painting can use this as a way to get the proprotions of their painting correct before filling in details. See below an image of a street artist using stencils to create their art. 
+![image](https://user-images.githubusercontent.com/29494260/140821574-eee79118-ffd3-4660-b0b0-67448797521e.png)
+
+
+
+#### Face Detection:
+![image](https://user-images.githubusercontent.com/29494260/140816132-55545ccf-ed0a-46a0-afb4-8d61ff4ecdbc.png)
+
+### The face detection algorithm can be used to create a device that dispenses candy whenever a person shows their face to it. As long as the device sees two eyes and a mouth, it would release the candy by activating a servo motor to open the candy gate. 
+
+#### Flow Detection:
+![image](https://user-images.githubusercontent.com/29494260/140816734-f41c63ff-61d3-4145-a2d3-4d616877dc9a.png)
+### The flow dection algorithm can be used to create a Red-Light Green-Light children's game. Red-Light Green-Light is a game where a moderator says "red light" when players are supposed to be still and green light when players are supposed to move forward. The device would sit beside the flow of the players and use flow detection to determine when a player is moving during a red light. The device could speak in order to indicate who was identified as "out" in the game.  
+
+![image](https://user-images.githubusercontent.com/29494260/140822847-fd0cea7d-d69f-4a95-9479-e353ea1cfae6.png)
+
+
+#### Object Detection:
+![image](https://user-images.githubusercontent.com/29494260/140817160-b94cbd71-ee4c-41d2-9c95-65dc95831611.png)
+
+### The object detection algorithm could be used to create a device that detects how messy your room is. Every object that is detected by the device would be considered clutter and it would display a messiness score depending on how much clutter is in your room. When the amount of clutter is above a threshold, it would flash a red light to indicate that it is time to clean up. 
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
