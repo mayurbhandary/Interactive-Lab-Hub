@@ -278,14 +278,18 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
-- It can be used to type without a keyboard. 
+It can be used to interact with a computer without a keyboard. Ideally, typing through sign language provides a healthier alternative to traditional physical keyboards. 
 * What is a good environment for X?
-- The device must be used in a well-lit environment so that hand gestures are visible. 
+The device must be used in a well-lit environment with a stationary background and only one user within its field of view.  
 * What is a bad environment for X?
+Using the device in a scene where there are hands from multiple people will not work. Obstructing the device's vision will prevent it from being able to see the hand signs so the field of view must be clear. 
 * When will X break?
+The device breaks when the user places their hand too close or too far from the camera. It also breaks when the hand is not fully in the field of view of the camera. 
 * When it breaks how will X break?
-* What are other properties/behaviors of X?
+It breaks by not displaying the proper words for the sign or not displaying any words at all.  
+
 * How does X feel?
+Every time the device correctly classifies a sign, I feel excited in the same way that I would feel if I were winning points in a videogame. Also, when I see the mesh drawn on my hand it makes me feel like there is actually something physically on my hand. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
