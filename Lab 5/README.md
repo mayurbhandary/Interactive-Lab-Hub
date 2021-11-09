@@ -265,14 +265,14 @@ For example:
 - Since they will receive realtime feedback from the system, they will immediately realize when it fails and therefore immediately become aware of its uncertainties.
 
 1. How bad would they be impacted by a miss classification?
-- If the misclasification happens extremely rarely, then then the user would have a bad experience using their computer. This would be akin to having an unreliable keyboard. They might be able tolerate it for some time, but they will eventually get irritated enough to replace it. 
+- If the misclasification happens frequently, then then the user will have a bad experience using their computer. This is akin to having an unreliable keyboard. They might be able tolerate it for some time, but they will eventually get irritated enough to replace it. 
 
 1. How could change your interactive system to address this?
-- Instead of using american sign language, I could create a different set of symbols that are easier for the device to classify. The dowside to this is that everyone would need to learn an entirely new set of symbols, and it would be like learning how to type all over again. 
+- Instead of using american sign language, I could create a different set of symbols that are easier for the device to classify. The dowside of this approach is that everyone would need to learn an entirely new set of symbols, and it would be like learning how to type all over again. 
 
 1. Are there optimizations you can try to do on your sense-making algorithm.
 - Using proportions instead of absolute distances between fingers would make the algorithm more robust to changes in distance. 
-- I could use a more sophisticated model to identify gestures that are strung together to make setenences instead of just individual words. 
+- I could use a more sophisticated model to identify gestures that are strung together to make sentences instead of just individual words. 
 ### Part D
 ### Characterize your own Observant system
 
