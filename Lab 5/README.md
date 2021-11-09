@@ -115,7 +115,7 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 #### Flow Detection:
 ![image](https://user-images.githubusercontent.com/29494260/140816734-f41c63ff-61d3-4145-a2d3-4d616877dc9a.png)
-### The flow dection algorithm can be used to create a Red-Light Green-Light children's game. Red-Light Green-Light is a game where a moderator says "red light" when players are supposed to be still and green light when players are supposed to move forward. The device would sit beside the flow of the players and use flow detection to determine when a player is moving during a red light. The device could speak in order to indicate who was identified as "out" in the game.  
+### The flow dection algorithm can be used to create a Red-Light Green-Light children's game. Red-Light Green-Light is a game where a moderator says "red light" when players are supposed to be still and "green light" when players are supposed to move forward. The device would sit beside the flow of the players and use flow detection to determine when a player is moving during a red light. The device could speak in order to indicate who was identified as "out" in the game.  
 
 ![image](https://user-images.githubusercontent.com/29494260/140822847-fd0cea7d-d69f-4a95-9479-e353ea1cfae6.png)
 
@@ -204,7 +204,7 @@ This might take a while to get fully installed. After installation, connect your
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 ![image](https://user-images.githubusercontent.com/29494260/140830157-a2d1550a-6e33-44ce-972c-d628807a521b.png)
 
-### The classifier could be used to create a device that alerts a driver when they are falling asleep at the wheel. The device would sit on the user's dashboard with the lens pointed at the user while they drive. When the model recognizes the symptoms of a sleepy face (droopy eyes for long period of time) it alert the driver to pull over and rest. 
+### The classifier could be used to create a device that alerts a driver when they are falling asleep at the wheel. The device would sit on the user's dashboard with the lens pointed at the user while they drive. When the model recognizes the symptoms of a sleepiness in the driver's face it alerts them to pull over and rest. 
 
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
@@ -233,29 +233,56 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I used the media pipe algorithm to create an American Sign Language interperator. The device can detect static sign language symbols such as the ones below.
+
+![image](https://user-images.githubusercontent.com/29494260/140843010-fd5ae3eb-22dd-4faa-bf9d-bab8850c36aa.png)
+
+The goal of this interaction is to replace typing at a keyboard with sign language. Typing for prolonged periods of time at a keyboard can cause pain in the hands over time. Also, being stationary at a keyboard for prolonged periods is unhealthy. Using sign language to interact with the computer might be a healthier alternative because it keeps the arms more engaged. 
+
+Experimentation: 
+1. I selected several easy to recognize signs from the table above: "yes", "money", "I love you", "I am", and "fine". 
+2. I implemented the signs by hard coding thresholds for distances between fingers for each sign.
+3. I held up each sign to test if the system could recognize them. 
+
+
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+- It mostly works as intended. When the user places their hand 6 to 12 inches from the camera and holds it here briefly, the protoype is accurately able to detect the symbol.
+2. When does it fail?
+- It fails when the hand is too far away from the camera or too close to the camera. It also identifies signs while I am changing gestures which can get confusing. 
+3. When it fails, why does it fail?
+- This failure occurs because I have set manual thresholds for the distanes between fingers in order to detect signs. A more robust method would detect the ratios of the distances between the fingers. 
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+- It is possible for the device to fail when the hand sign is not perfectly aligned with the camera. For example, if the hand is slightly tilted, the distances between fingers change (using proportions as suggested in 4 would not correct this issue). It is also possible for symbols that look similar to be misclassifid more often than symbols that look different. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+- Since they will receive realtime feedback from the system, they will immediately realize when it fails and therefore immediately become aware of its uncertainties.
 
+1. How bad would they be impacted by a miss classification?
+- If the misclasification happens extremely rarely, then then the user would have a bad experience using their computer. This would be akin to having an unreliable keyboard. They might be able tolerate it for some time, but they will eventually get irritated enough to replace it. 
+
+1. How could change your interactive system to address this?
+- Instead of using american sign language, I could create a different set of symbols that are easier for the device to classify. The dowside to this is that everyone would need to learn an entirely new set of symbols, and it would be like learning how to type all over again. 
+
+1. Are there optimizations you can try to do on your sense-making algorithm.
+- Using proportions instead of absolute distances between fingers would make the algorithm more robust to changes in distance. 
+- I could use a more sophisticated model to identify gestures that are strung together to make setenences instead of just individual words. 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+- It can be used to type without a keyboard. 
 * What is a good environment for X?
+- The device must be used in a well-lit environment so that hand gestures are visible. 
 * What is a bad environment for X?
 * When will X break?
 * When it breaks how will X break?
