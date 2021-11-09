@@ -237,14 +237,12 @@ I used the media pipe algorithm to create an American Sign Language interperator
 
 ![image](https://user-images.githubusercontent.com/29494260/140843010-fd5ae3eb-22dd-4faa-bf9d-bab8850c36aa.png)
 
-The goal of this interaction is to replace typing at a keyboard with sign language. Typing for prolonged periods of time at a keyboard can cause pain in the hands over time. Also, being stationary at a keyboard for prolonged periods is unhealthy. Using sign language to interact with the computer might be a healthier alternative because it keeps the arms more engaged. 
+The goal of this interaction is to replace typing at a keyboard with sign language. Typing at a keyboard for prolonged periods of time is unhealthy. Using sign language to interact with the computer is more active and might be a healthier alternative because it keeps the arms more engaged. 
 
 Experimentation: 
 1. I selected several easy to recognize signs from the table above: "yes", "money", "I love you", "I am", and "fine". 
 2. I implemented the signs by hard coding thresholds for distances between fingers for each sign.
 3. I held up each sign to test if the system could recognize them. 
-
-
 
 
 ### Part C
@@ -253,13 +251,13 @@ Experimentation:
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-- It mostly works as intended. When the user places their hand 6 to 12 inches from the camera and holds it here briefly, the protoype is accurately able to detect the symbol.
+- It mostly works as intended. When the user places their hand 6 to 12 inches from the camera and holds it there briefly, the protoype is accurately able to detect the sign.
 2. When does it fail?
-- It fails when the hand is too far away from the camera or too close to the camera. It also identifies signs while I am changing gestures which can get confusing. 
+- It fails when the hand is too far away from the camera or too close to the camera. It also identifies signs while in between gestures which can get confusing. 
 3. When it fails, why does it fail?
-- This failure occurs because I have set manual thresholds for the distanes between fingers in order to detect signs. A more robust method would detect the ratios of the distances between the fingers. 
+- This failure occurs because I have set manual thresholds for the distances between fingers in order to detect signs. A more robust method would detect the ratios of the distances between the fingers. 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
-- It is possible for the device to fail when the hand sign is not perfectly aligned with the camera. For example, if the hand is slightly tilted, the distances between fingers change (using proportions as suggested in 4 would not correct this issue). It is also possible for symbols that look similar to be misclassifid more often than symbols that look different. 
+- It is possible for the device to fail when the hand sign is not perfectly aligned with the camera. For example, if the hand is slightly tilted, the distances between fingers change (using proportions as suggested in 4 would not correct this issue). It is also possible for symbols that look similar to be misclassifid more often than symbols that look very different. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
@@ -291,6 +289,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+[![Alt text](https://user-images.githubusercontent.com/29494260/140859631-2e4e7c6c-77af-44b6-9482-0c34d989f954.png)](https://drive.google.com/drive/u/1/my-drive)
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
