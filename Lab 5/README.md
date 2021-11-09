@@ -244,6 +244,7 @@ Experimentation:
 2. I implemented the signs by hard coding thresholds for distances between fingers for each sign.
 3. I held up each sign to test if the system could recognize them. 
 
+#### See all code in sign_language.py
 
 ### Part C
 ### Test the interaction prototype
