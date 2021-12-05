@@ -281,7 +281,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
 It can be used to interact with a computer without a keyboard. Ideally, typing through sign language provides a healthier alternative to traditional physical keyboards. 
 * What is a good environment for X?
-The device must be used in a well-lit environment with a stationary background and only one user within its field of view.  
+The device must be used in a well-lit environment with a stationary background. Only one user must be within its field of view.  
 * What is a bad environment for X?
 Using the device in a scene where there are hands from multiple people will not work. Obstructing the device's vision will prevent it from being able to see the hand signs so the field of view must be clear. 
 * When will X break?
@@ -300,3 +300,7 @@ Please click image below to see video:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+The finished result creates sentences and displays them on the devices screen. The user can type with sign language and backspace as necessary to correct errors. See final code in sign_language.py
+
+[![Alt text](https://user-images.githubusercontent.com/29494260/140871635-2a48823e-7675-4817-817b-2067346f19a9.png)](https://drive.google.com/file/d/1722KSPD02Css0_mPhMoTX5uvGE6fl6wu/view?usp=sharing)
+
