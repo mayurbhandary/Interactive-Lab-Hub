@@ -1,6 +1,7 @@
 import time
 from adafruit_servokit import ServoKit
 import paho.mqtt.client as mqtt
+import uuid
 # Set channels to the number of servo channels on your kit.
 # There are 16 channels on the PCA9685 chip.
 kit = ServoKit(channels=16)
@@ -12,9 +13,8 @@ servo = kit.servo[2]
 # Each servo might be different, you can normally find this information in the servo datasheet
 servo.set_pulse_width_range(500, 2500)
 
-
 # the # wildcard means we subscribe to all subtopics of IDD
-topic = 'IDD/#clotheslock/unlock/123'
+topic = 'IDD/clotheslock/toggle/123'
 
 # some other examples
 # topic = 'IDD/a/fun/topic'
@@ -31,8 +31,12 @@ def on_connect(client, userdata, flags, rc):
 # this is the callback that gets called each time a message is recived
 def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
-	# you can filter by topics
-	# if msg.topic == 'IDD/some/other/topic': do thing
+
+	if msg.payload.decode('UTF-8') == '0': 
+		servo.angle = 15
+	else:
+		servo.angle = 0
+		
 
 
 # Every client needs a random ID
@@ -56,10 +60,17 @@ client.connect(
 client.loop_forever()
 
 
+
+
+
+
+
+
+'''
 while True:
     try:
         # Set the servo to 180 degree position
-        servo.angle = 45
+        servo.angle = 180
         time.sleep(2)
         # Set the servo to 0 degree position
         servo.angle = 0
@@ -70,3 +81,4 @@ while True:
         servo.angle = 0
         time.sleep(0.5)
         break
+'''
