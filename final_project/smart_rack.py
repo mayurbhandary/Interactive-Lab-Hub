@@ -2,6 +2,10 @@ import time
 from adafruit_servokit import ServoKit
 import paho.mqtt.client as mqtt
 import uuid
+import text_draw 
+
+text_draw.display_product_information('Shirt:Locked', "$2")
+
 # Set channels to the number of servo channels on your kit.
 # There are 16 channels on the PCA9685 chip.
 kit = ServoKit(channels=16)
@@ -33,9 +37,11 @@ def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
 
 	if msg.payload.decode('UTF-8') == '0': 
-		servo.angle = 15
+		servo.angle = 45
+		text_draw.display_product_information('Shirt:Unlocked', "$2")
 	else:
-		servo.angle = 0
+		text_draw.display_product_information('Shirt:Locked', "$2")
+		servo.angle = 7
 		
 
 
